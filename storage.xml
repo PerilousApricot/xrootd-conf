@@ -5,7 +5,8 @@
  	-cleaned up 5/13/10
    -->
 
-  <!-- temporary mapping for testing -->
+  <!-- xrootd testing mapping MUST BE FIRST -->
+  <lfn-to-pfn protocol="direct" destination-match=".*" path-match="/+store/test/xrootd/T2_US_Vanderbilt/store/(.*)" result="/store/$1"/>
 
   <!-- Outbound Loadtest mappings -->
   <!-- These rules will makes it so that millions and millions of LFN will map to 256 PFN -->
